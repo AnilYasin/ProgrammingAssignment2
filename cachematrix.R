@@ -18,6 +18,6 @@ CacheSolve <- function(A=matrix(), ...) {
         }
         matrix<-A$get()
         m<-solve(matrix, ...)
-        x$setmatrix(m)
+        A$setmatrix(m)
         m
 }
